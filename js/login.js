@@ -80,7 +80,8 @@ function redirecionaPagina (pagina) {
 
 function atualizaMenu () {
   var url_atual = window.location.href
-  let baseUrl = 'https://cantinadigital.vercel.app/'
+  // let baseUrl = 'https://cantinadigital.vercel.app/'
+  let baseUrl = 'http://bucket-site-estatico-s3.s3-website-us-east-1.amazonaws.com/'
   if (url_atual.includes('http://127.0.0.1:5500/')) {
     baseUrl = 'http://127.0.0.1:5500/'
   }
